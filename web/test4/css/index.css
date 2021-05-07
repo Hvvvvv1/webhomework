@@ -1,0 +1,276 @@
+
+
+body {
+    width: 1204px;
+    margin:auto;
+}
+.bg{
+    position: absolute;
+    opacity: 0;
+}
+.topBox{
+    position: relative;
+    height: 400px;
+}
+.topTextBox{
+    position: relative;
+    float: left;
+    height: 400px;
+}
+.pictureBox{
+    position: relative;
+    top:27px;   
+    left:106px; 
+    padding: 20px;
+    width: 52%;
+    float: left;
+}
+
+.titleText{
+    position: relative;
+    font-size: 28px;
+    padding: 10px;
+    width: 95%;
+    float: left;
+    top: 20px;
+}
+
+.titleLine{
+    position: relative;
+    float: left;
+    height: 5px;
+    width: 50px;
+    background-color: #0169B2;
+}
+
+.contentText{
+    position: relative;
+    font-size: 18px;
+    top: 10px;
+    clear: left;
+}
+
+.topButton{
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    width: 41%;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #0169B2;
+}
+.topButton span{
+    font-size: 16px;
+    margin-left: 80px;
+}
+
+.midBox{
+    position: relative;
+    top: 36px;
+    width: 100%;
+    height: 350px;
+}
+
+.midBoxTitle1{
+    position: relative;
+    font-size: 31px;
+    margin-left: 126px;
+    letter-spacing: 1.2px;
+    color: #085CAB;
+    float: left;
+}
+
+.midBoxTitle2{
+    position: relative;
+    width: 4px;
+    height: 18px;
+    margin-left:14px;
+    top: 13px;
+    background-color: #085CAB;
+    float: left;
+}
+
+.midBoxTitle3{
+    position: relative;
+    padding: 12px;
+    float: left;
+    margin-left: 10px;
+}
+
+.midBoxTitleButton{
+    position: relative;
+    padding: 6px 16px 6px 40px;
+    float: left;
+    margin-left: 598px;
+    top: 5px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #0169B2;
+}
+
+.line{
+    position: relative;
+    clear: left;
+    left: 25px;
+    top: 25px;
+    width: 83%;
+}
+
+.midBoxContent1{
+    position: relative;
+    top: 27px;
+    padding: 34px 0px;
+    width: 83%;
+    left: 126px;
+    border-bottom: 1px solid;
+    font-size: 14.2px;
+    letter-spacing: 0.4px;
+}
+.midBoxContentButton1{
+    position: relative;
+    margin-left: 32px;
+    margin-right: 20px;
+    padding: 4px 46px;
+    border-radius: 30px;
+
+    background-color: #0169B2;
+}
+
+.midBoxContentButton2{
+    position: relative;
+    margin-left: 35px;
+    margin-right: 20px;
+    padding: 4px 30px;
+    border-radius: 30px;
+    background-color: #5AAE73;
+}
+
+.bottomBoxLeft{
+    position: relative;
+    top: 40px;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.bottomBoxRight{
+    position: relative;
+    top: 40px;
+    width: 50%;
+    height: 400px;
+    float: left;
+    left: 8px;
+}
+
+.bottomBoxTitle{
+    position: relative;
+    padding: 12px;
+    font-size: 20px;
+    color:#0B519A;
+}
+
+.bottomBoxTitleBox{
+    position: relative;
+    height: 31.2px;
+    width: 1%;
+    float: left;
+    margin:0px 15px 0 40px;
+    background-color: #0B519A;
+}
+
+.bottomBoxContent{
+    position: relative;
+    margin:13px 0 0 52px; 
+    width: 89.3%;
+    height: 79.4%;
+    border: 1px solid grey;
+    font-size: 23px;
+    text-align: center;
+}
+
+.bottomContentBox1{
+    position: relative;
+    padding: 6px;
+}
+
+.bottomContentBox2{
+    position: relative;
+    font-family: calibri;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 0px;
+    color: #0B519A;
+}
+
+.bottomContentBox3{
+    position: relative;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 15px;
+    height: 23%;
+    width: 80%;
+    border-bottom: 1px solid;
+}
+
+.bottomContentBox4{
+    position: relative;
+    font-family: calibri;
+    font-size: 22px;
+    letter-spacing: 3px;
+    padding: 22px;
+    color: #0B519A;
+}
+
+
+.bottomBoxContentButton{
+    position: relative;
+    padding: 20px;
+    width: 73%;
+    top: 22.5%;
+    margin: auto;
+    border-radius: 6px;
+    color: #FFF;
+    background-color: #0B519A;
+}
+
+
+.letter1 {
+    position: relative;
+    top: 7px;
+    left: 44px;
+    width: 22px;
+    height: 16px;
+    border: 2px solid #FFF;
+    float: left;
+}
+
+.letter2 {
+    position: relative;
+    border: solid #FFF;
+    float: left;
+    border-width: 0px 2px 2px 0;
+    width: 9px;
+    height: 9px;
+    padding: 3px;
+    transform: rotate(45deg);
+    left: 22px;
+}
+
+.buttonPoint{
+    position: relative;
+    border: solid #FFF;
+    float: right;
+    border-width: 0px 3px 3px 0;
+    width: 10px;
+    height: 10px;   
+    transform: rotate(-45deg);
+    top: 10px;
+    right: 2px;
+}
+
+.bottomBoxText{
+    position: relative;
+    top: 22.5%;
+    padding: 20px;
+    font-size: 21px;
+}

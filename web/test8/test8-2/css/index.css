@@ -1,0 +1,268 @@
+body{
+	min-width: 1000px;	
+}
+
+.m-hd{
+	background-color: #008DEF;
+	padding: 10px;
+	color: #FFF;
+}
+
+.hd-nav{
+	text-align: center;
+	margin:5px 0 10px 20px;
+}
+
+.hd-nav-box{
+	padding: 5px 10px;
+	background-color: #0069B4;
+	border-radius: 3px;
+}
+
+.hd-reg{
+	width: 70%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.hd-input{
+	width: 80%;
+	background-color: #FFF;
+	color:#3D3935;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.icon-mag{
+	position: relative;
+	margin-top:3px;
+}
+
+.mag{
+	width: 14px;
+	height: 14px;
+	border-radius: 100%;
+	margin-right: 10px;
+	border: 2px solid #A2A2A2;
+	position: relative;
+}
+
+.mag::after{
+	content: "";
+	width: 8px;
+	height: 2px;
+	background-color: #A2A2A2;
+	position: absolute;
+	top: 90%;
+	left: 90%;
+	transform: rotate(35deg);
+}
+
+.m-top{
+	width: 80%;
+	margin:20px auto;
+	
+}
+
+.top-box-left{
+	height: 300px;
+	width: 100%;
+	background-color: #666;
+	
+}
+
+.top-box-right{
+	background-color: #F4F4F4;
+	height: 300px;
+	width: 100%;
+}
+
+.sp{
+	text-align: center;
+	padding:40px;
+}
+
+.btn-box{
+	display: flex;
+	padding: 10px;
+	width: 50%;
+	border-radius: 4px;
+	background-color: #009DFF; 
+	margin:0 auto;
+}
+
+.top-box-text{
+	margin: 50px auto;
+	width: 80%;
+	border-top: 2px dashed #ccc;
+}
+
+.text-around{
+	display: flex;
+	justify-content: space-around;
+}
+
+.text-around>span>b{
+	color:#4DA4E8;
+}
+
+.m-title {
+    margin: 0.5em 0;
+}
+
+.m-box {
+    border: solid 1px #e3e3e3;
+    min-height: 15em;
+    word-break: break-all;
+}
+
+.m-box .m-img {
+    background-color: #666666;
+    width: 100%;
+    height: 8em;
+    margin-top: 1em;
+}
+
+.m-content .m-box .m-img-small {
+    background-color: #666666;
+    width: 120%;
+    height: 8em;
+    margin-top: 1em;
+}
+
+.m-content .m-box h5 {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.m-content .m-box .txt {
+    margin-left: 2em;
+}
+
+.m-content .m-box .txt h5 {
+    margin: 1.5em 0;
+}
+
+.m-content .m-box .txt .m-num {
+    right: 2em;
+}
+
+.m-content .m-box .play:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: solid 2px #fff;
+    border-radius: 15px;
+    background-color: #323232;
+    position: relative;
+    top: 75px;
+    left: 5px;
+}
+
+.m-content .m-box .play:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: solid 7px transparent;
+    border-left: solid 8px #fff;
+    position: relative;
+    left: 17px;
+    top: 53px;
+}
+
+.m-content .m-left .m-ppt {
+    background-color: #ff792e;
+    border-radius: 2px;
+    border: solid 1px #ff4d00;
+    padding: 0 2px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.m-content .m-num {
+    color: #9a9a9a;
+    position: absolute;
+    bottom: 1em;
+}
+
+.m-content .m-left {
+    padding: 0 2em;
+}
+
+.m-content .m-right {
+    padding: 0;
+}
+
+.m-content .m-right .m-box {
+    min-height: 18em;
+    margin-bottom: 1em;
+}
+
+.m-content .m-right #bl{
+    border-bottom: solid 2px #0092f2;
+}
+
+
+.m-content .m-right .m-box .m-ppt:before {
+    content: "";
+    border: solid 25px transparent;
+    border-bottom: solid 25px #0092f2;
+    width: 9em;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: -37px;
+}
+
+.m-content .m-right .m-box .m-ppt:after {
+    content: "即将开始";
+    display: block;
+    color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 25px;
+    right: 4px;
+}
+
+.m-content .m-right .m-box .m-title {
+    margin-top: 1em;
+}
+
+.m-content .m-right .m-box .m-title .m-titlefont {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.m-content .m-right .m-box hr {
+    margin: 1em 0 2em;
+}
+
+.m-content .m-right .m-box .m-img-small {
+    width: 50%;
+    margin: auto;
+}
+
+.m-content .m-right .m-box .m-img-small:after {
+    position: relative;
+    top: 100px;
+    content: "第128期";
+    display: block;
+    color: #fff;
+    background-color: #191717;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.float-right {
+    float: right;
+}
+
+.indent {
+    text-indent: 2em;
+}

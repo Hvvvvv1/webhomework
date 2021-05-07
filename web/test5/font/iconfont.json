@@ -1,0 +1,44 @@
+{
+  "id": "2485498",
+  "name": "web",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4735322",
+      "name": "icon_热门-面",
+      "font_class": "icon_remen-mian",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "20186182",
+      "name": "热门hot",
+      "font_class": "remenhot",
+      "unicode": "e7c7",
+      "unicode_decimal": 59335
+    },
+    {
+      "icon_id": "20377639",
+      "name": "热门",
+      "font_class": "tubiaozhuanqu-05",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "15726815",
+      "name": "火热爆款",
+      "font_class": "huorebaokuan",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "925493",
+      "name": "生日礼物",
+      "font_class": "shengriliwu",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    }
+  ]
+}

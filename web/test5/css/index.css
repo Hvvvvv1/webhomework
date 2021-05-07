@@ -1,0 +1,113 @@
+.m-body{
+    width: 100%;
+    background-color: #99bd90;
+    
+}
+
+.m-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 2px solid black;
+    background-color: #cdd3f5;
+
+}
+
+.m-content{
+    box-sizing: border-box;
+    width: 760px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.m-top-box{
+    box-sizing: border-box;
+    width: 760px;
+    height: 120px;
+    background-color: #99bd90;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.m-bottom-box{
+    box-sizing: border-box;
+    width: 760px;
+    height: 420px;
+    background-color: #99bd90;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.m-top-box1{
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    background-color: #cdd3f5;
+    border: 2px solid black;
+}
+.m-top-box2{
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+}
+
+.m-bottom-left{
+    width: 200px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.m-bottom-right{
+    width: 480px;
+    height: 370px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.m-bottom-left1{
+    box-sizing: border-box;
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: #cdd3f5;
+}
+
+.m-bottom-left2{
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-bottom-left2-1{
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    background-color: #cdd3f5;
+}
+
+.m-bottom-right1{
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: #cdd3f5;
+}
